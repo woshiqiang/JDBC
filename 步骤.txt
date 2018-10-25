@@ -1,0 +1,7 @@
+1.下载jar包
+https://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.30
+2.把jar包拷贝到libs目录下
+3.右键mysql-connector-java-5.1.30.jar，Add as Library
+4.在AndroidManifest.xml 文件中 添加权限
+<uses-permission android:name="android.permission.INTERNET"/>
+5.在activity中新建个线程，连接数据库，查询数据
